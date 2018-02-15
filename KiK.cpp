@@ -43,7 +43,6 @@ void rysuj(char *tab[2])
 		cout << "@";
 		for (int j = 0; j < 3; ++j)
 		{
-			if (tab[j][i] == 'p')
 			{
 				cout << " ";
 			}
