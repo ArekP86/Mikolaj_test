@@ -19,6 +19,8 @@ void ustaw(char *tablica2[2]) {
 	}
 }
 
+/*tak sobie piszę*/
+
 bool tura_gracza(int ile_razy) {
 	if (ile_razy % 2 == 0) {
 		return true;
