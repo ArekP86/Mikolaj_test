@@ -3,6 +3,10 @@
 #include <iostream>
 #include <algorithm>
 
+/*
+komentarz
+*/
+
 using namespace std;
 
 void ustaw(char *tablica2[2]) {
@@ -157,7 +161,7 @@ int main()
 		rysuj(tablica);
 		if (tura_gracza(ile) == true)
 		{
-			cout << endl;
+			cout<<endl<<endl;
 			cout << "Tura gracza: X" << endl;
 			cout << "Podaj pozycje x: ";
 			cin >> x;
